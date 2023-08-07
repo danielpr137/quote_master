@@ -1,0 +1,243 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for Yarn
+yarn.lock
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore cache files
+.cache/
+
+# Ignore compiled Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore compiled Java bytecode
+*.class
+
+# Ignore compiled Ruby bytecode
+*.gem
+*.rbc
+*.rbo
+*.rbs
+*.gemspec
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore compiled CSS files
+*.css
+*.css.map
+
+# Ignore compiled Sass files
+*.sass
+*.sassc
+*.scss
+*.scssc
+
+# Ignore compiled Less files
+*.less
+*.lessc
+
+# Ignore compiled Stylus files
+*.styl
+*.stylc
+
+# Ignore compiled CoffeeScript files
+*.coffee
+
+# Ignore compiled Dart files
+*.dart.js
+*.dart.js.map
+*.dart.precompiled.js
+
+# Ignore compiled Swift files
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Ignore compiled Kotlin files
+*.kotlin_builtins
+
+# Ignore compiled Rust files
+*.rs.bk
+*.rlib
+*.rmeta
+*.crate
+
+# Ignore compiled Go files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.test.out
+*.prof
+
+# Ignore compiled C/C++ files
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled PHP files
+*.php7
+*.php7.0
+*.php7.1
+*.php7.2
+*.php7.3
+*.php7.4
+*.php8
+
+# Ignore compiled Perl files
+*.plc
+*.plx
+*.perl
+
+# Ignore compiled Ruby files
+*.gem
+*.rbc
+*.rbo
+*.rbs
+*.gemspec
+
+# Ignore compiled Lua files
+*.lua
+*.luac
+
+# Ignore compiled Haskell files
+*.hi
+*.ho
+*.hie
+*.o
+*.p_hi
+*.p_o
+*.dyn_hi
+*.dyn_o
+
+# Ignore compiled Erlang files
+*.beam
+*.app
+*.appup
+*.config
+*.xref
+*.d
+*.dump
+*.dump.*
+*.plt
+*.boot
+*.rel
+*.script
+*.escript
+*.ez
+*.ez.info
+*.ez.app
+*.ez.appup
+*.ez.config
+*.ez.xref
+*.ez.d
+*.ez.dump
+*.ez.dump.*
+*.ez.plt
+*.ez.boot
+*.ez.rel
+*.ez.script
+*.ez.escript
+
+# Ignore compiled Elixir files
+*.beam
+*.app
+*.appup
+*.config
+*.xref
+*.d
+*.dump
+*.dump.*
+*.plt
+*.boot
+*.rel
+*.script
+*.escript
+*.ez
+*.ez.info
+*.ez.app
+*.ez.appup
+*.ez.config
+*.ez.xref
+*.ez.d
+*.ez.dump
+*.ez.dump.*
+*.ez.plt
+*.ez.boot
+*.ez.rel
+*.ez.script
+*.ez.escript
+
+# Ignore compiled Clojure files
+*.class
+*.jar
+*.war
+*.ear
+*.uberjar
+*.jar-*
+
+# Ignore compiled Groovy files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore compiled Scala files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore compiled Kotlin files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore compiled Java files
+*.class
