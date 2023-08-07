@@ -1,0 +1,108 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the QuoteList component */
+  .center-text {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .quote-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .blue-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .blue-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the Modal */
+  .Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    max-height: 500px;
+    width: 90%;
+    overflow-y: auto; /* Add this line to enable vertical scrolling */
+  }
+  
+  .Modal h2 {
+    margin-top: 0;
+  }
+  
+  .Modal a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .Modal a:hover {
+    text-decoration: underline;
+  }
+  
+  .Modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .Modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Specific styles for the books list */
+  .Modal ul {
+    list-style-type: disc; /* Display bullet points for list items */
+    padding-left: 20px;   /* Add padding for spacing */
+  }
+  
+  /* Apply specific styles to the list items within the modal */
+  .Modal li {
+    margin: 5px 0;
+  }
+      
+/* Add styles for the modal header */
+  .modal-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+    
+    /* Style the close button */
+  .close-button {
+    background-color: transparent;
+    border: none;
+    color: #999;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 0px; /* Position the button above the header */
+    right: 20px; /* Adjust horizontal position */
+  }
+
